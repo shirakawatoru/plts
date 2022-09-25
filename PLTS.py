@@ -192,7 +192,7 @@ class Data:
         return set(zip(self.i, self.a))
 
 @dataclass
-class DataGeneringProcess:
+class DataGeneratingProcess:
     model: Model
 
     n_units:int = 100
