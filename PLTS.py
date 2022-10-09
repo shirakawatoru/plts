@@ -15,10 +15,6 @@ from typing import List
 
 def sigmoid(x): return (1+np.exp(-x))**(-1)
 
-from dataclasses import dataclass
-from dataclasses import field
-from typing import List
-
 @dataclass
 class Featurizer:
     n_features:int = 1
